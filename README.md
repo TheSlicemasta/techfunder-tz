@@ -26,6 +26,7 @@ Button “Insert”
 
 Charts must be build on basis of adding code like: 
 <chart type=”line” data-set=””></chart>
+```
 
 ### 2. Technologies which must be used
 For assets bundling you can use any bundler that available today (gulp, webpack, browserify, npm scripts, rollup, etc.)

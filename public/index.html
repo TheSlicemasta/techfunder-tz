@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Techfunder ТЗ</title>
+  </head>
+  <body>
+
+    <div class="page__container">
+      <header class="page__header">
+
+        <div class="header__logo header-logo">
+          <a href="/" class="header-logo__img">
+            <img src="<%= BASE_URL %>images/logo.png" alt="" />
+          </a>
+          <div class="header-logo__title">
+            Inform. Connect. Inspire.          
+          </div>
+        </div>
+
+        <nav class="header__nav">
+          <div class="header-menu-sup">
+            <a href="#" class="header-menu-sup__link">Uber uns</a>
+            <a href="#" class="header-menu-sup__link">Redaktion</a>
+          </div>
+          <div class="header-lang">
+            <a href="#" class="header-lang__link">DE</a>
+            <a href="#" class="header-lang__link header-lang__link_active">EN</a>          
+          </div>
+        </nav>
+
+        <nav class="header__nav header__nav_main">
+          <div class="header-search">
+            <form action="#">
+              <input type="text" class="header-search__text" placeholder="Search" value="" id="search-text" />
+              <label for="search-text" class="header-search__button">Search</label>
+            </form>
+          </div>
+          <div class="header-menu">
+            <a href="#" class="header-menu__link">DEsign+lifestyle</a>
+            <a href="#" class="header-menu__link">trends</a>
+            <a href="#" class="header-menu__link">infodelight</a>
+            <a href="#" class="header-menu__link">Smart Living</a>
+          </div>
+        </nav>
+
+        <div id="mobile-menu" onclick="document.body.classList.toggle('menu-open')">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        
+      </header>
+      <div class="page__content">
+
+        <div class="grid__container">
+          <div class="grid__row">
+
+            <div class="grid__col grid__col_wide">
+
+              <div class="slider slider_inbox">
+                <div class="slider__list">
+
+                  <div class="slider__slide slider__slide_active box box_img-1">
+                    <article class="article">
+                      <div class="article__tags">
+                        <a href="#" class="article__tags-item">Design+Lifestyle</a>
+                        <a href="#" class="article__tags-item">Smart Living</a>
+                      </div>
+                      <h3 class="article__title">Was hilft mir, Energie zu sparen und Spab zu haben, bei mir zu Hause?</h3>
+                      <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut  dolor in reprehenderit in quia...</p>
+                    </article>          
+                  </div>
+
+                  <div class="slider__slide box box_img-1">
+                    <article class="article">
+                      <div class="article__tags">
+                        <a href="#" class="article__tags-item">Design+Lifestyle</a>
+                        <a href="#" class="article__tags-item">Smart Living</a>
+                      </div>
+                      <h3 class="article__title">2 Was hilft mir, Energie zu sparen und Spab zu haben, bei mir zu Hause?</h3>
+                      <p class="article__text">2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut  dolor in reprehenderit in quia...</p>
+                    </article>          
+                  </div>
+                  
+                </div>
+                <div class="slider__pager">
+                  <a href="#" class="slider__pager-item">1</a>
+                  <a href="#" class="slider__pager-item">2</a>
+                  <a href="#" class="slider__pager-item">3</a>
+                  <a href="#" class="slider__pager-item">4</a>
+                  <a href="#" class="slider__pager-item slider__pager-item_active">5</a>
+                  <a href="#" class="slider__pager-item">6</a>                  
+                </div>
+              </div>
+
+            </div>
+
+            <div class="grid__col grid__col_tiny">
+              
+              <div class="box">             
+                <article class="article article_text-left-lg">
+                  <h3 class="article__title">A place called Inspiration.</h3>
+                  <p class="article__text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam voluptatem.</p>
+                  <div class="article__btns">
+                    <!-- <a href="#" class="article__btns-item btn">Uber die Autoren</a>
+                    <a href="#" class="article__btns-item btn">Uber das magazin</a> -->
+
+                    <select name="chart-type" id="chart-type" class="article__btns-item btn">
+                      <option value="0" selected disabled>Choose type of charts</option>
+                      <option value="pie">pie</option>
+                      <option value="bar">bar</option>
+                      <option value="line">line</option>
+                    </select>
+
+                    <button name="chart-insert" id="chart-insert" class="article__btns-item btn">Insert</button>
+
+                  </div>
+                </article>
+              </div>
+
+            </div>          
+
+            <div class="grid__col">
+              
+              <div class="box box_img-2">
+                <article class="article">
+                  <div class="article__tags">
+                    <a href="#" class="article__tags-item">Design+Lifestyle</a>
+                    <a href="#" class="article__tags-item">Smart Living</a>
+                  </div>
+                  <h3 class="article__title">Was hilft mir, Energie zu sparen und Spab zu haben, bei mir zu Hause?</h3>
+                  <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut  dolor in reprehenderit in quia...</p>
+                </article>             
+              </div>
+
+            </div>
+
+            <div class="grid__col">  
+
+              <div class="box box_img-3">
+                <article class="article">
+                  <div class="article__tags">
+                    <a href="#" class="article__tags-item">Design+Lifestyle</a>
+                    <a href="#" class="article__tags-item">Smart Living</a>
+                  </div>
+                  <h3 class="article__title">Was hilft mir, Energie zu sparen und Spab zu haben, bei mir zu Hause?</h3>
+                  <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut  dolor in reprehenderit in quia...</p>
+                </article>             
+              </div>
+
+            </div> 
+
+          </div>
+
+          <!-- Vue App -->
+          <noscript>
+            <strong>We're sorry but techfunder-tz doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+          </noscript>
+          <div id="app"></div>
+
+        </div>
+        
+      </div>
+    </div>
+   
+  </body>
+</html>
