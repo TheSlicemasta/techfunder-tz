@@ -10,13 +10,14 @@ Create JS-component
 
 On the first part - you need to prepare frontend interface template on basis of provided mockup, as shown on fig. 1.1. 
 
+![Fig. 1.1 - Layout overview](http://xn--d1acnqm9f.xn--p1ai/data/fig-1.png)
 Fig. 1.1 - Layout overview
 
 You can download mockup here.
 
 On the second part - you need to build JS component which allows to build 3 kinds of charts (pie, bar, line) on basis of demo datasets and insert it into page like new blocks at the bottom side. Blocks must be similar to existing 2 blocks at the layout bottom side. Result must look like on fig. 1.2.
 
-
+![Fig. 1.2 - Layout with components](http://xn--d1acnqm9f.xn--p1ai/data/fig-2.png)
 Fig. 1.2 - Layout with components
 
 For charts insertion - we need to replace 2 buttons in the second block by 2 elements:
