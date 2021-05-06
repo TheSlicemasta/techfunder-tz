@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "highcharts": "^8.2.0",
+    "highcharts": "^9.0.0",
     "vue": "^2.6.12"
   },
   "devDependencies": {
